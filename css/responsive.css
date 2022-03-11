@@ -1,0 +1,349 @@
+
+/* max-575 */
+
+@media (max-width: 575.98px){
+    /* menu css  */
+    .head{
+        font-size: 14px;
+    }
+    #menu_part img {
+        height: 50px;
+    }
+    #menu_part i{
+       color: white ;
+      
+    } 
+    #menu_part .navbar-toggler{
+        box-shadow: none;
+    }
+
+
+
+    /* banner css */
+    #banner_part .banner .text h2 {
+        font-size: 30px;
+    }
+    #banner_part .banner .text h3 {
+        font-size: 20px;
+    }
+    #banner_part .banner .text::after {
+        width: 160px;
+        top: 105px;
+    }
+    #banner_part .sliding-effect .slick-dots {
+        top: auto;
+        right: auto;
+        transform: translatex(-50%);
+        left: 50%;
+        bottom: 0;
+    }
+    #banner_part .sliding-effect .slick-dots li{
+        display: inline-flex;
+        margin:  0 5px;
+    }
+    #banner_part .banner-icon {
+        display: none;
+    }
+    #banner_part .banner .text p {
+        font-size: 12px;
+        width: 298px;
+        margin-top: 14px;
+    }
+    #banner_part .banner .text a {
+        font-size: 12px;
+        padding: 10px 6px 5px 25px;
+        line-height: 19px;
+        
+    }
+    #banner_part .banner .text i{
+        font-size: 25px;
+        left: 5px;
+    }
+    #banner_part .banner .text a span {
+        font-size: 15px;
+    }
+    /* banner end */
+    /* about start */
+    #about .item .text .pera {
+       
+         width: auto;
+       
+    }
+    /* about end */ 
+     #feature .details img{
+        display: none;
+    }
+    #feature .head{
+        margin-bottom: 40px;
+    }
+   
+    /* screen satrt */
+    #screen .slick-dots {
+        position: absolute;
+        left: 30%;
+        bottom: -70px;
+        transform: translateY(-50%);
+        display: flex;
+    }
+   /* video  */
+    #video-part .background_video{  
+        padding: 80px; 
+    }
+    /* plan */
+    #plan .item {
+        margin-bottom: 30px;
+    }
+    /* team */
+    #team .head {
+            padding-bottom: 100px;
+    }
+    #team .text .det {
+      display: none;
+    }
+    #team .item{
+        margin-bottom: 20px;
+    }
+    #team .text h2 {
+        font-size: 14px;
+    }
+    #team .text p {
+        font-size: 12px;
+    }
+    /* feedback */
+    #feedback .text .pero {
+      width: auto;
+      font-size: 7px;
+      
+    }
+    #feedback .content{
+        width: 250px;
+       
+    }
+    /* touch */
+    #touch .head {
+        font-size: 16px;
+        
+    }
+    #touch::after {
+        top: 125px;
+    }
+    #touch .form_btn  .send_btn{
+       
+            margin-left: -30px;
+    
+    }
+    #end_part .text p {
+        font-size: 12px;
+        text-align: left;
+    }
+    #end_part img {
+        width: 135px;
+    }
+    #end_part .icon a {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (min-width: 576px) and (max-width:767.98px){
+    /* menu css  */
+    #menu_part img {
+        height: 65px;
+    }
+  
+    #menu_part i{
+       color: white ;
+      font-size: 40px;
+    } 
+    #menu_part .navbar-toggler{
+        box-shadow: none;
+    }
+
+
+
+    /* banner css */
+    #banner_part .banner .text h2 {
+        font-size: 30px;
+    }
+    #banner_part .banner .text h3 {
+        font-size: 20px;
+    }
+    #banner_part .banner .text::after {
+        width: 160px;
+        top: 105px;
+    }
+    #banner_part .sliding-effect .slick-dots {
+        top: auto;
+        right: auto;
+        transform: translatex(-50%);
+        left: 50%;
+        bottom: 0;
+    }
+    #banner_part .sliding-effect .slick-dots li{
+        display: inline-flex;
+        margin:  0 5px;
+    }
+    #banner_part .banner-icon {
+        display: none;
+    }
+    #banner_part .banner .text p {
+        font-size: 14px;
+        width: 342px;
+    }
+    #banner_part .banner .text a {
+        font-size: 13px;
+        padding: 12px 15px 13px 30px;
+        line-height: 19px;
+    }
+    #banner_part .banner .text i{
+        font-size: 25px;
+        left: 5px;
+    }
+    #banner_part .banner .text a span {
+        font-size: 15px;
+    }
+    /* banner end */
+    /* about start */
+    #about .item .text .pera {
+       
+         width: auto;
+       
+    }
+    #about .item2 img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 130px;
+    }
+    /* about end */
+    #feature .details img{
+        display: none;
+    }
+   
+    /* screen satrt */
+    #screen .slick-dots {
+        position: absolute;
+        left: 40%;
+        bottom: -70px;
+        transform: translateX(-50%);
+        display: flex;
+    }
+   /* video  */
+    #video-part .background_video{  
+        padding: 80px; 
+    }
+    /* plan */
+    #plan .item {
+        margin-bottom: 30px;
+    }
+    /* team */
+  
+    #team .text .det {
+      display: none;
+    }
+    #team .item{
+        margin-bottom: 20px;
+    }
+    #team .text h2 {
+        font-size: 14px;
+    }
+    #team .text p {
+        font-size: 12px;
+    }
+    /* feedback */
+    #feedback .text .pero {
+      width: auto;
+      font-size: 9px;
+      
+    }
+    #feedback .content{
+        width: 500px;
+       
+    }
+    #feedback .slick-dots{
+        left: 40%;
+        transform: translateX(-50%);
+
+    }
+    /* touch */
+    #touch .head {
+        font-size: 16px;
+        
+    }
+    #touch::after {
+        top: 125px;
+    }
+    #touch .form_btn  .send_btn{
+       
+            margin-left: -30px;
+    
+    }
+    #end_part .text p {
+        font-size: 14px;
+        text-align: center;
+    }
+    #end_part img {
+        width: 135px;
+    }
+    #end_part .icon a {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (min-width:768px) and (max-width:991.98px){
+    #menu_part img{
+        width: 120px;
+    }
+    #menu_part i{
+        color: white ;
+       font-size: 40px;
+     } 
+     #menu_part ul li a {
+        padding: 8px 14px;
+    }
+    /* banner */
+     #banner_part .slick-dots {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    #banner_part .banner-icon {
+        position: absolute;
+        right: 10px;
+        top: 42%;
+        color: #ffff;
+    }
+    /*feature   */
+
+    #feature img{
+        display: none;
+    }
+    #about .item .text .pera {
+        width: 345px;
+    }
+    #video-part .background_video {
+        padding: 150px;
+    }
+    #plan .item{
+        margin-bottom: 35px;
+    }
+
+    #team .text .det {
+        font-size: 10px;
+        width: 174px;
+    }
+    #feedback .content {
+        width: 700px;
+    }
+}
+@media (min-width:992) and (max-width:1140.98px){
+    #banner_part .slick-dots {
+        position: absolute;
+        right: 4px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+}
+
